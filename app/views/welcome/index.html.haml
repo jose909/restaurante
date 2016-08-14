@@ -1,4 +1,10 @@
 .video-container 
-  %video
-    %source{src:"../assets/videos/bbq.mp4", type:"video/mp4"}
-    %source{src:"/assets/videos/bbq.webm", type:"video/webm"}
+  = video_tag ["bbq.mp4", "bbq.webm"], autoplay:true, loop:true, poster:'bbq.jpg'
+.row.full-height.middle-xs.center-xs.relative.up
+  .col-xs-12
+    .box.white-text
+      = image_tag "logo.png", width:200
+      %h1.dancing-script.title La Burger
+      %p#is-open Abierto ahora
+
+   

@@ -116,13 +116,13 @@ textarea {
   overflow: hidden;
 }
 .video-container video {
-  /* Make video to at least 100% wide and tall */
+  /* Hacer vídeo a por lo menos 100% de ancho y de altura */
   min-width: 100%;
   min-height: 100%;
-  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  /* Ajuste ancho y altura para automóviles evita que el navegador de estiramiento y aplastando el video */
   width: auto;
   height: auto;
-  /* Center the video */
+  /* Centro del video */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -285,6 +285,10 @@ ul.list-inline{
 }
 #navigation{
   display:none;
+  li{
+    @extend .medium;
+    padding: 5px 10px
+  }
 }
 
 /* ==========================================================================
@@ -292,7 +296,7 @@ ul.list-inline{
    ========================================================================== */
 
  // Typography
-.lobster{
+.dancing-script {
   font-family: 'Dancing Script', cursive;
 }
 .slim{
@@ -347,6 +351,13 @@ ul.list-inline{
 }
 .big-padding{
   padding:2em;
+}
+.top{
+  top:2em;
+}
+
+.right{
+  right:1em;
 }
 
 .up{
