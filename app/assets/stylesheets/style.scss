@@ -131,7 +131,7 @@ textarea {
     padding: 5px 10px;
     transition: all 0.4s;
     &:hover{
-      background-color:rgba(0,0,0,0.6)
+      background-color:rgba(40,104,199,0.6)
     }
 
     a{
@@ -141,6 +141,18 @@ textarea {
         text-decoration:none;
       }
     }
+  }
+}
+
+#description{
+  ul{
+      margin:0px;
+  }
+  &.absolute{
+      bottom:0px;
+  }
+  &.fixed{
+      top:0px;
   }
 }
 /* ==========================================================================
@@ -192,7 +204,7 @@ textarea {
   z-index: 5;
 }
 .full-height{
-   min-height:100%;
+  height:100%;
 }
 .full-width{
   width: 100%
@@ -208,7 +220,7 @@ textarea {
 
 
 .hidden {
-  display: none !important;
+  display: none;
 }
 
 /*
